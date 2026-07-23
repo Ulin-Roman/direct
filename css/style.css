@@ -388,6 +388,7 @@ p {
 
 .custom-link {
     color: #fff;
+    text-decoration: none; /* убираем подчёркивание по умолчанию */
 }
 
 .custom-link_wrap {
@@ -395,7 +396,7 @@ p {
 }
 
 .custom-link:hover {
-    text-decoration: none;
+    text-decoration: underline; /* показываем только при наведении */
 }
 
 .logo-text {
